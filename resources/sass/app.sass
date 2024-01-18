@@ -1,7 +1,10 @@
 $bg-primary: #15548D
 $bg-secondary: #FAC568
+$bg-secondary-light: rgba(250, 197, 104, .4)
+$bg-third: #F7F8FD
 $font-primary: #FFFFFF
 $font-secondary: #000000
+$font-third: #333333
 $res-dekstop: 192rem
 $res-mac: 144rem
     
@@ -23,6 +26,30 @@ a
     color: inherit
     text-decoration: none
 
+.container
+    width: $res-dekstop
+
+.highlight
+    display: flex
+    align-items: center
+    gap: 1.8rem
+    padding-left: 10.7rem
+    font-size: 2.4rem
+    font-weight: 500
+    z-index: 1
+
+.text-header
+    font-size: 5.4rem
+    font-weight: 500
+    padding-left: 10.7rem
+    line-height: 8.5rem
+
+.text-description
+    font-size: 3.2rem
+    font-weight: 200
+    padding-left: 10.7rem
+    line-height: 5rem
+
 .app 
     width: 100%
     height: 100vh
@@ -30,13 +57,12 @@ a
     flex-direction: column
     align-items: center
 
-.hero-container
-    width: $res-dekstop
+.hero
     background: $bg-primary
     color: $font-primary
     font-size: 2.2rem
-    font-weight: 400
-    
+    font-weight: 300
+
 .nav-container
     width: $res-dekstop
     display: flex
@@ -48,8 +74,8 @@ a
     display: flex
     align-items: center
     gap: 8rem
-    font-size: 2.4rem
     padding-right: 6.1rem
+    font-size: 2.4rem
     z-index: 1
 
     img 
@@ -99,35 +125,21 @@ a
     flex-direction: column
     gap: 5rem
 
+.left-body
+    gap: 1.8rem
+    padding-top: 8.6rem
+
 .body-bg-image
     width: 120rem
     top: 1rem
     position: absolute
     z-index: 0
 
-.body-left-highlight
-    display: flex
-    align-items: center
-    gap: 1.8rem
-    padding-left: 10.7rem
-    padding-top: 8.6rem
-    font-size: 2.8rem
-    z-index: 1
-
 .body-left-main
     display: flex
     flex-direction: column
     gap: 3rem
-    padding-left: 10.7rem
     z-index: 1
-
-.main-header
-    font-size: 5.4rem
-    font-weight: 500
-
-.main-description
-    font-size: 3.2rem
-    font-weight: 200
 
 .body-left-button
     width: 55rem
@@ -136,7 +148,7 @@ a
     justify-content: center
     align-items: center
     margin-left: 10.7rem
-    margin-bottom: 24rem
+    margin-bottom: 19rem
     border: none
     border-radius: 100rem
     background-color: $bg-secondary
@@ -148,15 +160,84 @@ a
         font-weight: 600
         color: $font-secondary
 
+.workflow
+    display: flex
+    flex-direction: column
+    gap: 2rem
+    margin-top: 10rem
+
+.workflow-bg
+    width: $res-dekstop
+    top: 102rem
+    position: absolute
+    z-index: -1
+
+.workflow-pathway
+    display: flex
+    justify-content: center
+    z-index: 1
 
 
+.workflow-1
+    display: flex
+    justify-content: center
+    width: 25%
+
+.pathway-1
+    width: 32rem
+    display: flex
+    flex-direction: column
+    gap: 1.2rem
+    color: $font-third
+
+.pathway-circle
+    width: 19rem
+    height: 19rem
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 2rem
+    border-radius: 50%
+    box-shadow: 0 0 35px 0 $bg-secondary-light
+    background: white
+
+    img
+        width: 75%
+        height: 75%
+
+.pathway-pointer
+    width: 3rem
+    height: 3rem
+    margin-top: 9.3rem
+    margin-left: 5rem
+
+.blue 
+    background: #F1FAFF
+    box-shadow: 0 0 0 0 
+
+.pathway-header
+    font-size: 3.2rem
+    font-weight: 600
+
+.pathway-description
+    font-size: 2.2rem
+    font-weight: 300
+    line-height: 3rem
+
+.services
+    display: flex
+    flex-direction: column
+    gap: 2rem
+    margin-top: 10rem
+    background: $bg-third
 
 @media screen and (max-width: 1920px) 
-    .hero-container
+    .container
         width: 100%
     
     .nav-container
         width: 100%
+
 
 
 // .body-left-scroll
