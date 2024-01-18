@@ -26,7 +26,7 @@
                             <button>
                                 <img src="{{URL('/images/1/image 2.png')}}" alt="Flag">
                                 <span>Indonesia ( ID )</span>
-                                <img src="{{URL('/images/1/down.png')}}" alt="Down Arrow">
+                                <img class="down-image" src="{{URL('/images/1/down.png')}}" alt="Down Arrow">
                             </button>
                         </div>
                         <img class="body-image" src="{{URL('/images/1/image 1.png')}}" alt="City">
@@ -41,17 +41,20 @@
                         </div>
                         <div class="body-left-main">
                             <span class="main-header">Membantu Menjalankan <br> Operasi Bisnis Pariwisata Anda</span>
-                            <span class="main-description">GWA membantu mengoperasikan keseluruhan layanan hotel, <br> menajadikan mitra lebih percaya diri dalam menjalankan bisnis.</span>
+                            <span class="main-description">GWA membantu mengoperasikan keseluruhan layanan hotel, <br> menjadikan mitra lebih percaya diri dalam menjalankan bisnis.</span>
                         </div>
                         <div class="body-left-button">
                             <span>Konsultasikan Bisnis Saya</span>
                         </div>
-                        {{-- <div class="body-left-scroll">
-                            <span>Scroll</span>
-                            <img src="{{URL('/images/1/arrow-down.png')}}" alt="Down Arrow">
-                        </div> --}}
+                            {{-- <div class="body-left-scroll">
+                                <span>Scroll</span>
+                                <img src="{{URL('/images/1/arrow-down.png')}}" alt="Down Arrow">
+                            </div> --}}
                     </div>
                 </div>
+            </div>
+            <div class="">
+                
             </div>
         </div>
     </body>
