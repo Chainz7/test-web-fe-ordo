@@ -190,7 +190,7 @@
                 </div>
             </div>
             <div class="testimonials container">
-                <div class="testimonials-left">
+                <div class="testimonials-left"">
                     <div class="highlight">
                         <img src="{{URL('/images/Line.png')}}" alt="">
                         <span>OUR TESTIMONIALS</span>
@@ -224,7 +224,93 @@
                     </div>
                 </div>
             </div>
+            <div class="contact container">
+                <img class="contact-bg" src="{{ URL('/images/BG-Line-4.png') }}" alt="">
+                <div class="contact-left">
+                    <div class="highlight">
+                        <img src="{{URL('/images/Line.png')}}" alt="">
+                        <span>HUBUNGI KAMI</span>
+                    </div>
+                    <div class="text-header contact-special-text">
+                        Ingin Mendiskusikan Bisnis Pariwisata Anda ?
+                    </div>
+                    <img class="black-line" src="{{ URL('/images/Line-Black.png') }}" alt="">
+                    <span class="text-description contact-special-description">
+                        Ada kepentingan bisnismu yang ingin didikusikan dengan kami, yuk segera isi form disamping, konsultasinya gratis kok !
+                    </span>
+                </div>
+                <form action="" class="contact-right">
+                    <div class="form-box">
+                        <div class="form-input">
+                            <label for="">Nama Lengkap</label>
+                            <input type="text" placeholder="Masukkan Nama Lengkap">
+                        </div>
+                        <div class="form-input">
+                            <label for="">Nama Perusahaan</label>
+                            <input type="text" placeholder="Masukkan Nama Perusahaan">
+                        </div>
+                        <div class="form-input">
+                            <label for="">Nomor Whatsapp Aktif</label>
+                            <input type="text" placeholder="Masukkan Nomor Whatsapp">
+                        </div>
+                        <button class="form-button">
+                            <span>Jadwalkan Konsultasi</span>
+                            <img src="{{ URL('/images/Arrow-RightHD.png') }}" alt="">
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="footer container">
+                <img class="footer-bg" src="{{ URL('/images/BG-Line-5.png') }}" alt="">
+                <div class="footer-container">
+                    <img class="footer-logo" src="{{ URL('/images/Logo.png') }}" alt="">
+                    <div class="footer-info">
+                        <div class="footer-info-item">
+                            <span class="footer-item-title">Halaman Utama</span>
+                            <a href="" class="footer-item-subtitle">Homepage</a>
+                        </div>
+                        <div class="footer-info-item">
+                            <span class="footer-item-title">Perusahaan</span>
+                            <a href="" class="footer-item-subtitle">Tentang Kami</a>
+                            <a href="" class="footer-item-subtitle">Daftar Hotel</a>
+                        </div>
+                        <div class="footer-info-item">
+                            <span class="footer-item-title">Temukan Kami</span>
+                            <a href="" class="footer-item-subtitle">Bantuan</a>
+                            <a href="" class="footer-item-subtitle">Hubungi Kami</a>
+                        </div>
+                        <div class="footer-info-item">
+                            <span class="footer-item-title">Social Media</span>
+                            <div class="footer-item-social">
+                                <a href="">
+                                    <img src="{{ URL('/images/Facebook.png') }}" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="{{ URL('/images/Youtube.png') }}" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="{{ URL('/images/Instagram.png') }}" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                        <img src="{{ URL('/images/Line-Long.png') }}" alt="">
+                        <div class="footer-info-company">
+                            <div class="footer-company-left">
+                                <a href="" class="footer-item-subtitle law">Pemberitahuan Privasi</a>
+                                <a href="" class="footer-item-subtitle law">Syarat dan Ketentuan</a>
+                            </div>
+                            <div class="footer-company-right">
+                                <img class="languange" src="{{ URL('/images/Languange.png') }}" alt="">
+                                <div class="footer-button">
+                                    <span>Bahasa Indonesia</span>
+                                    <img class="down-image" src="{{URL('/images/Down.png')}}" alt="Down Arrow">
+                                </div>
+                            </div>
+                        </div>
+                        <span class="info">© 2023 Graha Wisata Kita | PT Graha Wisata Kita Tbk. </span>
+                    </div>
+                </div>
         </div>
-
     </body>
 </html>
