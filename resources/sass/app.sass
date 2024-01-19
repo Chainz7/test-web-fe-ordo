@@ -3,6 +3,7 @@ $bg-primary: #15548D
 $bg-primary-light: #29679F
 $bg-secondary: #FAC568
 $bg-secondary-light: rgba(250, 197, 104, .4)
+$bg-secondary-dark: #e1b15e
 $bg-third: #F7F8FD
 $font-primary: #FFFFFF
 $font-secondary: #000000
@@ -78,12 +79,7 @@ a
     margin-left: -15rem
     position: absolute
     opacity: .9
-    transition: opacity 0.3s ease
     z-index: -1
-
-.image-4:hover 
-    opacity: 1
-
 
 .image-5
     width: 58.2rem
@@ -272,13 +268,17 @@ a
     background-color: $bg-secondary
     cursor: pointer
     z-index: 1
+    transition: all 0.3s ease-in-out
 
     span 
         font-size: 3.4rem
         font-weight: 600
         color: $font-secondary
 
-// Workflow Section
+.body-left-button:hover
+    background-color: $bg-secondary-dark
+
+    // Workflow Section
 .workflow
     display: flex
     flex-direction: column
@@ -377,10 +377,14 @@ a
     border-radius: 4rem
     background-color: $bg-secondary
     cursor: pointer
+    transition: all 0.3s ease-in-out
 
     span
         font-size: 2rem
         font-weight: 500
+
+.services-box-button:hover
+    background-color: $bg-secondary-dark
 
 // Projects Section
 .projects
@@ -413,6 +417,12 @@ a
     border-radius: 50%
     cursor: pointer
     z-index: 2
+    transition: all 0.3s ease-in-out
+
+.box-previous:hover
+    background: $bg-secondary-dark
+.box-next:hover
+    background: $bg-secondary-dark
 
 .box-previous 
     margin-right: -5rem
@@ -604,11 +614,15 @@ input:focus
     border-radius: 10rem
     background: $bg-secondary
     cursor: pointer
+    transition: all 0.3s ease-in-out
 
     span
         font-size: 2.2rem
         font-weight: 500
 
+.form-button:hover
+    background: $bg-secondary-dark
+    
 // Footer Section
 .footer-container
     display: flex
