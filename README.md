@@ -6,10 +6,11 @@
 ## Instalation Project
 
 1.   Rename file ".env.example" menjadi ".env"
-2.   Buka terminal, ketik "npm i"
-3.   "npm add -D sass"
-4.   "npm run dev"
-5.   Buka terminal baru, jalankan "php artisan serve"
+2.   Buka terminal, jalankan "composer update"
+3.   Buka terminal, ketik "npm i"
+4.   "npm add -D sass"
+5.   "npm run dev"
+6.   Buka terminal baru, jalankan "php artisan serve"
 
 ## Showcase
 ![DD](https://i.ibb.co/02MSw7v/1.png)
