@@ -15,7 +15,9 @@
             <div class="hero container">
                 <div class="nav-container">
                     <div class="nav-left">
-                        <a href=""><img class="header-bg-image" src="{{URL('/images/Logo.png')}}" alt=""></a>
+                        <a href="">
+                            <img class="logo" src="{{URL('/images/Logo.webp')}}" alt="Graha Wisata Kita">
+                        </a>
                         <a href="">Homepage</a>
                         <a href="">Tentang</a>
                         <a href="">Daftar Hotel</a>
@@ -24,19 +26,19 @@
                     <div class="nav-right">
                         <div class="nav-right-button">
                             <button>
-                                <img src="{{URL('/images/Flag.png')}}" alt="Flag">
+                                <img class="icon-flag" src="{{URL('/images/Flag.webp')}}" alt="Flag">
                                 <span>Indonesia ( ID )</span>
-                                <img class="down-image" src="{{URL('/images/Down.png')}}" alt="Down Arrow">
+                                <img class="icon-down" src="{{URL('/images/Down-White.webp')}}" alt="Down">
                             </button>
                         </div>
-                        <img class="body-image" src="{{URL('/images/Image-1.png')}}" alt="City">
+                        <img class="image-1" src="{{URL('/images/Image-1.webp')}}" alt="City">
                     </div>
                 </div>
                 <div class="body-container">
                     <div class="body-left">
-                        <img class="body-bg-image" src="{{URL('/images/BG-Line-1.png')}}" alt="">
+                        <img class="bg-image-1" src="{{URL('/images/BG-Image-1.webp')}}" alt="Background Line">
                         <div class="left-body highlight">
-                            <img src="{{URL('/images/Line.png')}}" alt="">
+                            <img class="line-yellow" src="{{URL('/images/Line-Yellow.png')}}" alt="Line">
                             <span>HOTEL OPERATOR</span>
                         </div>
                         <div class="body-left-main">
@@ -48,15 +50,15 @@
                         </div>
                             {{-- <div class="body-left-scroll">
                                 <span>Scroll</span>
-                                <img src="{{URL('/images/1/arrow-down.png')}}" alt="Down Arrow">
+                                <img src="{{URL('/images/1/arrow-down.webp')}}" alt="Down Arrow">
                             </div> --}}
                     </div>
                 </div>
             </div>
             <div class="workflow container">
-                <img class="workflow-bg" src="{{URL('/images/BG-Line-2.png')}}" alt="">
+                <img class="bg-image-2" src="{{URL('/images/BG-Image-2.webp')}}" alt="Background Line">
                 <div class="highlight">
-                    <img src="{{URL('/images/Line.png')}}" alt="">
+                    <img class="line-yellow" src="{{URL('/images/Line-Yellow.png')}}" alt="Line">
                     <span>OUR WORKFLOW</span>
                 </div>
                 <div class="text-header">
@@ -66,7 +68,7 @@
                     <div class="workflow-1">
                         <div class="pathway-1" style="margin-top: 18rem;">
                             <div class="pathway-circle">
-                                <img src="{{URL('/images/Achievement-1.png')}}" alt="">
+                                <img class="image-2" src="{{URL('/images/Achievement-1.webp')}}" alt="Achievment">
                             </div>
                             <span class="pathway-header">Tantangan</span>
                             <span class="pathway-description">Setiap property memiliki tantangan tersendiri dan GWA sangat memahami hal tersebut.</span>
@@ -75,7 +77,7 @@
                     <div class="workflow-1">
                         <div class="pathway-1" style="margin-left: 5rem; margin-top: 12rem; width: 40rem">
                             <div class="pathway-circle">
-                                <img src="{{URL('/images/Achievement-2.png')}}" alt="">
+                                <img class="image-2" src="{{URL('/images/Achievement-2.webp')}}" alt="Achievment">
                             </div>
                             <span class="pathway-header">Rumusan</span>
                             <span class="pathway-description">Setiap tantangan akan dirumuskan menjadi sebuah hal yang harus dicari jalan keluarnya oleh kami</span>
@@ -85,9 +87,9 @@
                         <div class="pathway-1" style="margin-left: 1rem; margin-top: 14rem; width: 43rem">
                             <div style="display: flex">
                                 <div class="pathway-circle blue">
-                                    <img src="{{URL('/images/Achievement-3.png')}}" alt="">
+                                    <img class="image-2" src="{{URL('/images/Achievement-3.webp')}}" alt="Achievment">
                                 </div>
-                                <img class="pathway-pointer" src="{{URL('/images/Pointer.png')}}" alt="">
+                                <img class="ellipse" src="{{URL('/images/Ellipse.webp')}}" alt="">
                             </div>
                             <span class="pathway-header">Goals</span>
                             <span class="pathway-description">Dari rumusan masalah, kami memberikan respon cepat dan jalan keluar jangka pendek - menengah - panjang.</span>
@@ -96,7 +98,7 @@
                     <div class="workflow-1">
                         <div class="pathway-1" style="margin-left: -12rem; margin-top: 1rem; width: 37rem">
                             <div class="pathway-circle">
-                                <img src="{{URL('/images/Achievement-4.png')}}" alt="">
+                                <img class="image-2" src="{{URL('/images/Achievement-4.webp')}}" alt="Achievment">
                             </div>
                             <span class="pathway-header">Ideas</span>
                             <span class="pathway-description">Setiap rumusan menjadikan ide-ide kreatif bagi kami untuk meningkatkan kualitas property mitra.</span>
@@ -105,9 +107,9 @@
                 </div>
             </div>
             <div class="services container">
-                <img class="services-bg" src="{{URL('/images/BG-Line-3.png')}}" alt="">
+                <img class="bg-image-3" src="{{URL('/images/BG-Image-3.webp')}}" alt="Background Line">
                 <div class="highlight">
-                    <img src="{{URL('/images/Line.png')}}" alt="">
+                    <img class="line-yellow" src="{{URL('/images/Line-Yellow.png')}}" alt="Line">
                     <span>OUR SERVICES</span>
                 </div>
                 <div class="text-header">
@@ -116,7 +118,7 @@
                 <div class="services-boxs">
                     <div class="services-box">
                         <div class="services-box-top">
-                            <img src="{{URL('/images/Services-1.png')}}" alt="">
+                            <img class="image-3" src="{{URL('/images/Services-1.webp')}}" alt="Services">
                             <span>01</span>
                         </div>
                         <span class="services-box-title">
@@ -124,12 +126,12 @@
                         </span>
                         <button class="services-box-button">
                             <span>Saya Tertarik</span>
-                            <img src="{{URL('/images/Arrow-Right.png')}}" alt="">
+                            <img class="icon-arrow-right" src="{{URL('/images/Arrow-Right-Black.webp')}}" alt="Arrow Right">
                         </button>
                     </div>
                     <div class="services-box">
                         <div class="services-box-top">
-                            <img src="{{URL('/images/Services-2.png')}}" alt="">
+                            <img class="image-3" src="{{URL('/images/Services-2.webp')}}" alt="Services">
                             <span>02</span>
                         </div>
                         <span class="services-box-title">
@@ -137,12 +139,12 @@
                         </span>
                         <button class="services-box-button">
                             <span>Saya Tertarik</span>
-                            <img src="{{URL('/images/Arrow-Right.png')}}" alt="">
+                            <img class="icon-arrow-right" src="{{URL('/images/Arrow-Right-Black.webp')}}" alt="Arrow Right">
                         </button>
                     </div>
                     <div class="services-box">
                         <div class="services-box-top">
-                            <img src="{{URL('/images/Services-3.png')}}" alt="">
+                            <img class="image-3" src="{{URL('/images/Services-3.webp')}}" alt="Services">
                             <span>03</span>
                         </div>
                         <span class="services-box-title">
@@ -150,25 +152,25 @@
                         </span>
                         <button class="services-box-button">
                             <span>Saya Tertarik</span>
-                            <img src="{{URL('/images/Arrow-Right.png')}}" alt="">
+                            <img class="icon-arrow-right" src="{{URL('/images/Arrow-Right-Black.webp')}}" alt="Arrow Right">
                         </button>
                     </div>
                 </div>
             </div>
             <div class="projects container">
                 <div class="highlight-projects">
-                    <img src="{{URL('/images/Line.png')}}" alt="">
+                    <img class="line-yellow" src="{{URL('/images/Line-Yellow.png')}}" alt="Line">
                     <span>OUR SERVICES</span>
-                    <img src="{{URL('/images/Line.png')}}" alt="">
+                    <img class="line-yellow" src="{{URL('/images/Line-Yellow.png')}}" alt="Line">
                 </div>
                 <div class="text-header-projects">
                     Project Terbaru Kami
                 </div>
                 <div class="projects-boxs">
-                    <img class="projects-main-image" src="{{ URL('/images/Image-2.png') }}" alt="">
+                    <img class="image-4" src="{{ URL('/images/Image-2.webp') }}" alt="Project">
                     <div class="projects-box">
                         <div class="box-previous">
-                            <img src="{{ URL('/images/Left.png') }}" alt="">
+                            <img class="icon-left" src="{{ URL('/images/Left-Black.webp') }}" alt="Left">
                         </div>
                         <div class="box-main">
                             <div class="projects-main-left">
@@ -178,13 +180,13 @@
                             </div>
                             <div class="projects-main-right">
                                 <div class="projects-box-right">
-                                    <img src="{{ URL('/images/Right-White.png') }}" alt="">
+                                    <img class="icon-right" src="{{ URL('/images/Right-White.webp') }}" alt="Right">
                                 </div>
                                 <span class="projects-box-subdescription">Lihat Detail</span>
                             </div>
                         </div>
                         <div class="box-next">
-                            <img src="{{ URL('/images/Right.png') }}" alt="">
+                            <img class="icon-right" src="{{ URL('/images/Right-Black.webp') }}" alt="Right">
                         </div>
                     </div>
                 </div>
@@ -192,20 +194,20 @@
             <div class="testimonials container">
                 <div class="testimonials-left"">
                     <div class="highlight">
-                        <img src="{{URL('/images/Line.png')}}" alt="">
+                        <img class="line-yellow" src="{{URL('/images/Line-Yellow.png')}}" alt="Line">
                         <span>OUR TESTIMONIALS</span>
                     </div>
                     <div class="text-header">
                         Yang Klien Kami Katakan
                     </div>
                     <div class="testimonials-description-box">
-                        <img src="{{ URL('/images/Quotes-Sign.png') }}" alt="">
+                        <img class="icon-quotes-sign" src="{{ URL('/images/Quotes-Sign.webp') }}" alt="Quotes Sign">
                         <span class="testimonials-description">GWA Group membantu hotel
                             saya untuk menjangkau lebih banyak client dan memberikan saran monetisasi yang tidak pernah saya bayangkan sebelumnya
                         </span>
                     </div>
                     <div class="testimonials-clients">
-                        <img src="{{ URL('/images/testimonial-1.png') }}" alt="">
+                        <img class="icon-company" src="{{ URL('/images/company-1.webp') }}" alt="Company Profile">
                         <div class="testimonials-client">
                             <span class="testimonials-client-title">Chaim Desmond</span>
                             <span class="testimonials-client-subtitle">CEO of Yellow Hotel</span>
@@ -213,28 +215,28 @@
                     </div>
                 </div>
                 <div class="testimonials-right">
-                    <img class="testimonials-image" src="{{ URL('/images/Image-3.png') }}" alt="">
+                    <img class="image-5" src="{{ URL('/images/Image-3.webp') }}" alt="Client Profile">
                     <div class="tesimonials-button">
                         <div class="testimonials-button-left">
-                            <img src="{{ URL('/images/Left-White.png') }}" alt="">
+                            <img class="icon-left-big" src="{{ URL('/images/Left-White.webp') }}" alt="Left">
                         </div>
                         <div class="testimonials-button-right">
-                            <img src="{{ URL('/images/Right-Arrow2.png') }}" alt="">
+                            <img class="icon-right-big" src="{{ URL('/images/Right-White.webp') }}" alt="Right">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="contact container">
-                <img class="contact-bg" src="{{ URL('/images/BG-Line-4.png') }}" alt="">
+                <img class="bg-image-4" src="{{ URL('/images/BG-Image-4.webp') }}" alt="Background Line">
                 <div class="contact-left">
                     <div class="highlight">
-                        <img src="{{URL('/images/Line.png')}}" alt="">
+                        <img class="line-yellow" src="{{URL('/images/Line-Yellow.png')}}" alt="Line">
                         <span>HUBUNGI KAMI</span>
                     </div>
                     <div class="text-header contact-special-text">
                         Ingin Mendiskusikan Bisnis Pariwisata Anda ?
                     </div>
-                    <img class="black-line" src="{{ URL('/images/Line-Black.png') }}" alt="">
+                    <img class="line-short" src="{{ URL('/images/Short-Line.png') }}" alt="Line">
                     <span class="text-description contact-special-description">
                         Ada kepentingan bisnismu yang ingin didikusikan dengan kami, yuk segera isi form disamping, konsultasinya gratis kok !
                     </span>
@@ -255,15 +257,15 @@
                         </div>
                         <button class="form-button">
                             <span>Jadwalkan Konsultasi</span>
-                            <img src="{{ URL('/images/Arrow-RightHD.png') }}" alt="">
+                            <img style="width: 4rem" src="{{ URL('/images/Arrow-Right-Black.webp') }}" alt="Arrow Right">
                         </button>
                     </div>
                 </form>
             </div>
             <div class="footer container">
-                <img class="footer-bg" src="{{ URL('/images/BG-Line-5.png') }}" alt="">
+                <img class="bg-image-5" src="{{ URL('/images/BG-Image-5.webp') }}" alt="Background Line">
                 <div class="footer-container">
-                    <img class="footer-logo" src="{{ URL('/images/Logo.png') }}" alt="">
+                    <img class="logo" src="{{ URL('/images/Logo.webp') }}" alt="Logo">
                     <div class="footer-info">
                         <div class="footer-info-item">
                             <span class="footer-item-title">Halaman Utama</span>
@@ -283,28 +285,28 @@
                             <span class="footer-item-title">Social Media</span>
                             <div class="footer-item-social">
                                 <a href="">
-                                    <img src="{{ URL('/images/Facebook.png') }}" alt="">
+                                    <img class="icon-socmed" src="{{ URL('/images/Facebook.webp') }}" alt="Facebook">
                                 </a>
                                 <a href="">
-                                    <img src="{{ URL('/images/Youtube.png') }}" alt="">
+                                    <img class="icon-socmed" src="{{ URL('/images/Youtube.webp') }}" alt="Youtube">
                                 </a>
                                 <a href="">
-                                    <img src="{{ URL('/images/Instagram.png') }}" alt="">
+                                    <img class="icon-socmed" src="{{ URL('/images/Instagram.webp') }}" alt="Instagram">
                                 </a>
                             </div>
                         </div>
                     </div>
-                        <img src="{{ URL('/images/Line-Long.png') }}" alt="">
+                        <img src="{{ URL('/images/Long-Line.png') }}" alt="Line">
                         <div class="footer-info-company">
                             <div class="footer-company-left">
                                 <a href="" class="footer-item-subtitle law">Pemberitahuan Privasi</a>
                                 <a href="" class="footer-item-subtitle law">Syarat dan Ketentuan</a>
                             </div>
                             <div class="footer-company-right">
-                                <img class="languange" src="{{ URL('/images/Languange.png') }}" alt="">
+                                <img class="languange" src="{{ URL('/images/Languange.webp') }}" alt="Languange Logo">
                                 <div class="footer-button">
                                     <span>Bahasa Indonesia</span>
-                                    <img class="down-image" src="{{URL('/images/Down.png')}}" alt="Down Arrow">
+                                    <img class="icon-down" src="{{URL('/images/Down-White.webp')}}" alt="Down">
                                 </div>
                             </div>
                         </div>
