@@ -37,12 +37,12 @@
                 <div class="body-container">
                     <div class="body-left">
                         <img class="bg-image-1" src="{{URL('/images/BG-Image-1.webp')}}" alt="Background Line">
-                        <div class="left-body highlight">
+                        <div class="left-body page-title">
                             <img class="line-yellow" src="{{URL('/images/Line-Yellow.png')}}" alt="Line">
                             <span>HOTEL OPERATOR</span>
                         </div>
                         <div class="body-left-main">
-                            <span class="text-header-hero">Membantu Menjalankan <br> Operasi Bisnis Pariwisata Anda</span>
+                            <span class="text-title-hero">Membantu Menjalankan <br> Operasi Bisnis Pariwisata Anda</span>
                             <span class="text-description-hero">GWA membantu mengoperasikan keseluruhan layanan hotel, <br> menjadikan mitra lebih percaya diri dalam menjalankan bisnis.</span>
                         </div>
                         <div class="body-left-button">
@@ -57,11 +57,11 @@
             </div>
             <div class="workflow container">
                 <img class="bg-image-2" src="{{URL('/images/BG-Image-2.webp')}}" alt="Background Line">
-                <div class="highlight">
+                <div class="page-title">
                     <img class="line-yellow" src="{{URL('/images/Line-Yellow.png')}}" alt="Line">
                     <span>OUR WORKFLOW</span>
                 </div>
-                <div class="text-header">
+                <div class="text-title">
                     Proses Kerja Kami dalam <br> Meningkatkan Kualitas Properti
                 </div>
                 <div class="workflow-pathway">
@@ -108,11 +108,11 @@
             </div>
             <div class="services container">
                 <img class="bg-image-3" src="{{URL('/images/BG-Image-3.webp')}}" alt="Background Line">
-                <div class="highlight">
+                <div class="page-title">
                     <img class="line-yellow" src="{{URL('/images/Line-Yellow.png')}}" alt="Line">
                     <span>OUR SERVICES</span>
                 </div>
-                <div class="text-header">
+                <div class="text-title">
                     Apa Saja yang Bisa Kami Bantu ?
                 </div>
                 <div class="services-boxs">
@@ -158,12 +158,12 @@
                 </div>
             </div>
             <div class="projects container">
-                <div class="highlight-projects">
+                <div class="page-title" style="padding-left: 0;">
                     <img class="line-yellow" src="{{URL('/images/Line-Yellow.png')}}" alt="Line">
-                    <span>OUR SERVICES</span>
+                    <span>OUR LATEST PROJECTS</span>
                     <img class="line-yellow" src="{{URL('/images/Line-Yellow.png')}}" alt="Line">
                 </div>
-                <div class="text-header-projects">
+                <div class="text-title" style="margin-bottom: 5rem; padding-left: 0;">
                     Project Terbaru Kami
                 </div>
                 <div class="projects-boxs">
@@ -193,11 +193,11 @@
             </div>
             <div class="testimonials container">
                 <div class="testimonials-left"">
-                    <div class="highlight">
+                    <div class="page-title">
                         <img class="line-yellow" src="{{URL('/images/Line-Yellow.png')}}" alt="Line">
                         <span>OUR TESTIMONIALS</span>
                     </div>
-                    <div class="text-header">
+                    <div class="text-title">
                         Yang Klien Kami Katakan
                     </div>
                     <div class="testimonials-description-box">
@@ -216,7 +216,7 @@
                 </div>
                 <div class="testimonials-right">
                     <img class="image-5" src="{{ URL('/images/Image-3.webp') }}" alt="Client Profile">
-                    <div class="tesimonials-button">
+                    <div class="testimonials-button">
                         <div class="testimonials-button-left">
                             <img class="icon-left-big" src="{{ URL('/images/Left-White.webp') }}" alt="Left">
                         </div>
@@ -229,11 +229,11 @@
             <div class="contact container">
                 <img class="bg-image-4" src="{{ URL('/images/BG-Image-4.webp') }}" alt="Background Line">
                 <div class="contact-left">
-                    <div class="highlight">
+                    <div class="page-title">
                         <img class="line-yellow" src="{{URL('/images/Line-Yellow.png')}}" alt="Line">
                         <span>HUBUNGI KAMI</span>
                     </div>
-                    <div class="text-header contact-special-text">
+                    <div class="text-title contact-special-text">
                         Ingin Mendiskusikan Bisnis Pariwisata Anda ?
                     </div>
                     <img class="line-short" src="{{ URL('/images/Short-Line.png') }}" alt="Line">

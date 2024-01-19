@@ -1,3 +1,4 @@
+// Variables
 $bg-primary: #15548D
 $bg-primary-light: #29679F
 $bg-secondary: #FAC568
@@ -8,7 +9,8 @@ $font-secondary: #000000
 $font-third: #333333
 $res-dekstop: 192rem
 $res-mac: 144rem
-    
+
+// General
 * 
     box-sizing: border-box
     margin: 0
@@ -26,6 +28,31 @@ body
 a 
     color: inherit
     text-decoration: none
+
+// Reusable Component
+.container
+    width: $res-dekstop
+
+.page-title
+    display: flex
+    align-items: center
+    gap: 1.8rem
+    padding-left: 10.7rem
+    font-size: 2.4rem
+    font-weight: 500
+    z-index: 1
+
+.text-title
+    font-size: 4.6rem
+    font-weight: 600
+    padding-left: 10.7rem
+    line-height: 7rem
+
+.text-description
+    font-size: 3.2rem
+    font-weight: 200
+    padding-left: 10.7rem
+    line-height: 5rem
 
 // Image
 .logo
@@ -124,42 +151,8 @@ a
     margin-top: 9.3rem
     margin-left: 5rem
 
-.container
-    width: $res-dekstop
 
-.highlight
-    display: flex
-    align-items: center
-    gap: 1.8rem
-    padding-left: 10.7rem
-    font-size: 2.4rem
-    font-weight: 500
-    z-index: 1
-
-.text-header-hero
-    font-size: 5.4rem
-    font-weight: 500
-    padding-left: 10.7rem
-    line-height: 8.5rem
-
-.text-description-hero
-    font-size: 3.2rem
-    font-weight: 200
-    padding-left: 10.7rem
-    line-height: 5rem
-
-.text-header
-    font-size: 4.6rem
-    font-weight: 600
-    padding-left: 10.7rem
-    line-height: 7rem
-
-.text-description
-    font-size: 3.2rem
-    font-weight: 200
-    padding-left: 10.7rem
-    line-height: 5rem
-
+// Hero & Navrbar Section
 .app 
     width: 100%
     height: 100vh
@@ -215,6 +208,18 @@ a
     display: flex
     justify-content: space-between
 
+.text-title-hero
+    font-size: 5.4rem
+    font-weight: 500
+    padding-left: 10.7rem
+    line-height: 8.5rem
+
+.text-description-hero
+    font-size: 3.2rem
+    font-weight: 200
+    padding-left: 10.7rem
+    line-height: 5rem
+    
 .body-left
     width: 100%
     display: flex
@@ -250,6 +255,7 @@ a
         font-weight: 600
         color: $font-secondary
 
+// Workflow Section
 .workflow
     display: flex
     flex-direction: column
@@ -260,7 +266,6 @@ a
     display: flex
     justify-content: center
     z-index: 1
-
 
 .workflow-1
     display: flex
@@ -298,6 +303,7 @@ a
     font-weight: 300
     line-height: 3rem
 
+// Services Section
 .services
     display: flex
     flex-direction: column
@@ -352,7 +358,8 @@ a
     span
         font-size: 2rem
         font-weight: 500
-    
+
+// Projects Section
 .projects
     display: flex
     justify-content: center
@@ -360,22 +367,6 @@ a
     flex-direction: column
     gap: 2.2rem
     margin-top: 10rem
-
-.highlight-projects
-    display: flex
-    align-items: center
-    justify-content: center
-    gap: 1.8rem
-    font-size: 2.4rem
-    font-weight: 500
-    z-index: 1
-    
-.text-header-projects
-    display: flex
-    justify-content: center
-    font-size: 5.4rem
-    font-weight: 500
-    margin-bottom: 6rem
 
 .projects-boxs
     width: 128rem
@@ -445,6 +436,7 @@ a
     font-size: 3.1rem
     font-weight: 400  
 
+// Testimonials Section
 .testimonials
     display: flex
     justify-content: space-between
@@ -469,7 +461,6 @@ a
     font-size: 3.3rem
     font-weight: 300
 
-
 .testimonials-clients
     display: flex
     align-items: center
@@ -493,7 +484,7 @@ a
 .testimonials-right
     display: flex
 
-.tesimonials-button
+.testimonials-button
     height: 8rem
     display: flex
     justify-content: center
@@ -509,6 +500,7 @@ a
 .testimonials-button-right
     cursor: pointer
 
+// Contact Us Section
 .contact 
     display: flex
     justify-content: space-between
@@ -581,6 +573,7 @@ input:focus
         font-size: 2.2rem
         font-weight: 500
 
+// Footer Section
 .footer-container
     display: flex
     flex-direction: column
@@ -659,6 +652,7 @@ input:focus
     font-weight: 300
     z-index: 1
 
+// Responsive Design
 @media screen and (max-width: 1920px) 
     .container
         width: 100%
@@ -675,6 +669,147 @@ input:focus
 
     .contact-special-description
         width: 100%
+
+@media screen and (max-width: 1440px) 
+    .page-title
+        font-size: 1.6rem
+        font-weight: 500
+
+    .text-title
+        font-size: 3.4rem
+        font-weight: 600
+        line-height: 5rem
+
+    .text-description
+        font-size: 2.6rem
+        font-weight: 300
+        line-height: 3.7rem
+
+    .line-yellow
+        width: 3rem
+        margin-right: -.4rem
+
+    .nav-left
+        gap: 4rem
+        font-size: 1.8rem
+        line-height: 2.2rem
+    
+    .nav-right-button
+    button 
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 1.4rem
+        padding: 1.55rem 2.1rem
+        border: none
+        border-radius: 1rem
+        background-color: $bg-primary
+        color: inherit
+        font: inherit
+        cursor: pointer
+
+        span 
+            font-size: 1.7rem
+
+    .text-title-hero
+        font-size: 3.8rem
+        font-weight: 600
+        line-height: 5.8rem
+
+    .text-description-hero
+        font-size: 2.2rem
+        font-weight: 300
+        line-height: 3.5rem
+    
+    .body-left-button
+        width: 40rem
+        height: 7.4rem
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-left: 10.7rem
+        margin-bottom: 19rem
+        border: none
+        border-radius: 100rem
+        background-color: $bg-secondary
+        cursor: pointer
+        z-index: 1
+
+        span 
+            font-size: 2.6rem
+            font-weight: 500
+        
+    .image-1
+        width: 70rem
+
+    .pathway-header
+        font-size: 2.2rem
+        font-weight: 600
+        line-height: 3.3rem
+
+    .pathway-description
+        font-size: 1.7rem
+        font-weight: 300
+        line-height: 2.5rem
+
+    .pathway-circle
+        width: 15rem
+        height: 15rem
+
+    .bg-image-2
+        width: 124rem
+
+    .ellipse
+        margin-top: 3.4rem
+        margin-left: 3rem
+
+    .services-box-title
+        font-size: 2.6rem
+        font-weight: 500
+        line-height: 3.6rem
+
+    .services-box-top
+        span
+            font-size: 3.1rem
+            font-weight: 600
+            line-height: 3.1rem
+
+    .services-box-button
+        span
+            font-weight: 400
+
+    .image-3
+        width: 13.8rem
+        height: 14rem
+
+    .bg-image-3
+        height: 70rem
+        margin-top: -10rem
+        margin-left: 88rem
+
+    .testimonials-description
+        font-weight: 300
+        font-size: 2.6rem
+        line-height: 3.7rem
+
+    .icon-quotes-sign
+        width: 4.4rem
+        height: 4.4rem
+
+    .icon-company
+        width: 9.7rem
+
+    .testimonials-client-title
+        font-size: 2.7rem
+        font-weight: 600
+
+    .testimonials-client-subtitle
+        font-size: 2.7rem
+        font-weight: 300
+
+    .icon-left-big,
+    .icon-right-big
+        width: 4.8rem
 
 // .body-left-scroll
 //     display: flex
