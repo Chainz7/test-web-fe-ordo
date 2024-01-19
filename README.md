@@ -20,6 +20,15 @@
 4.   new terminal
 5.   php artisan serve
 
+## Showcase
+![DD](https://i.ibb.co/f9V1nvh/1.png)
+![DD](https://i.ibb.co/Rz2HB54/2.png)
+![DD](https://i.ibb.co/BzhYkt1/3.png)
+![DD](https://i.ibb.co/JtLvLxv/4.png)
+![DD](https://i.ibb.co/gvYw9Kf/5.png)
+![DD](https://i.ibb.co/VqJskW0/6.png)
+![DD](https://i.ibb.co/XVw8xgT/7.png)
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
