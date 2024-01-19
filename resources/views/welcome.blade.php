@@ -8,6 +8,21 @@
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         <!-- SASS -->
         @vite(['resources/sass/app.sass'])
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        
+        <style>
+            .swiper-button-prev, .swiper-button-next {
+                position: inherit;
+                width: 3rem;
+                height: 3rem;
+                margin: 2.4rem;
+            }
+
+            .swiper-wrapper {
+                margin-right: -20rem
+            }
+        </style>
 
     </head>
     <body>
@@ -167,28 +182,88 @@
                     Project Terbaru Kami
                 </div>
                 <div class="projects-boxs">
-                    <div class="projects-box">
-                        <div class="box-previous">
-                            <img class="icon-left" src="{{ URL('/images/Left-Black.webp') }}" alt="Left">
-                        </div>
-                        <div class="box-main">
-                            <img class="image-4" src="{{ URL('/images/Image-2.webp') }}" alt="Project">
-                            <div class="projects-main-left">
-                                <span class="projects-box-subtitle">1/4 OPERATIONAL PROJECT</span>
-                                <span class="projects-box-title">Townhouse Oak</span>
-                                <span class="projects-box-description">Brand tertinggi di OYO</span>
+                        <div class="projects-box mySwiper">
+                            <div class="box-previous">
+                                <img class="swiper-button-prev" src="{{ URL('/images/Left-Black.webp') }}" alt="Left">
                             </div>
-                            <div class="projects-main-right">
-                                <div class="projects-box-right">
-                                    <img class="icon-right" src="{{ URL('/images/Right-White.webp') }}" alt="Right">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="box-main">
+                                        <img class="image-4" src="{{ URL('/images/Image-2.webp') }}" alt="Project">
+                                        <div class="projects-main-space">
+                                            <div class="projects-main-left">
+                                                <span class="projects-box-subtitle">1/4 OPERATIONAL PROJECT</span>
+                                                <span class="projects-box-title">Townhouse Oak</span>
+                                                <span class="projects-box-description">Brand tertinggi di OYO</span>
+                                            </div>
+                                            <div class="projects-main-right">
+                                                <div class="projects-box-right">
+                                                    <img class="icon-right" src="{{ URL('/images/Right-White.webp') }}" alt="Right">
+                                                </div>
+                                                <span class="projects-box-subdescription">Lihat Detail</span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <span class="projects-box-subdescription">Lihat Detail</span>
+                                <div class="swiper-slide">
+                                    <div class="box-main">
+                                        <img class="image-4" src="{{ URL('/images/Image-2.webp') }}" alt="Project">
+                                        <div class="projects-main-space">
+                                            <div class="projects-main-left">
+                                                <span class="projects-box-subtitle">2/4 OPERATIONAL PROJECT</span>
+                                                <span class="projects-box-title">Traditional House</span>
+                                                <span class="projects-box-description">Brand tertinggi di Agoda</span>
+                                            </div>
+                                            <div class="projects-main-right">
+                                                <div class="projects-box-right">
+                                                    <img class="icon-right" src="{{ URL('/images/Right-White.webp') }}" alt="Right">
+                                                </div>
+                                                <span class="projects-box-subdescription">Lihat Detail</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="box-main">
+                                        <img class="image-4" src="{{ URL('/images/Image-2.webp') }}" alt="Project">
+                                        <div class="projects-main-space">
+                                            <div class="projects-main-left">
+                                                <span class="projects-box-subtitle">3/4 OPERATIONAL PROJECT</span>
+                                                <span class="projects-box-title">Pod Inn</span>
+                                                <span class="projects-box-description">Brand tertinggi di OYO</span>
+                                            </div>
+                                            <div class="projects-main-right">
+                                                <div class="projects-box-right">
+                                                    <img class="icon-right" src="{{ URL('/images/Right-White.webp') }}" alt="Right">
+                                                </div>
+                                                <span class="projects-box-subdescription">Lihat Detail</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="box-main">
+                                        <img class="image-4" src="{{ URL('/images/Image-2.webp') }}" alt="Project">
+                                        <div class="projects-main-space">
+                                            <div class="projects-main-left">
+                                                <span class="projects-box-subtitle">4/4 OPERATIONAL PROJECT</span>
+                                                <span class="projects-box-title">Modern House</span>
+                                                <span class="projects-box-description">Brand tertinggi di Traveloka</span>
+                                            </div>
+                                            <div class="projects-main-right">
+                                                <div class="projects-box-right">
+                                                    <img class="icon-right" src="{{ URL('/images/Right-White.webp') }}" alt="Right">
+                                                </div>
+                                                <span class="projects-box-subdescription">Lihat Detail</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-next">
+                                <img class="swiper-button-next" src="{{ URL('/images/Right-Black.webp') }}" alt="Right">
                             </div>
                         </div>
-                        <div class="box-next">
-                            <img class="icon-right" src="{{ URL('/images/Right-Black.webp') }}" alt="Right">
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="testimonials container">
@@ -314,5 +389,18 @@
                     </div>
                 </div>
         </div>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                cssMode: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
     </body>
 </html>
