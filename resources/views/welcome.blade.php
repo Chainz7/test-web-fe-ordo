@@ -36,6 +36,10 @@
                 </div>
                 <div class="body-container">
                     <div class="body-left">
+                        <div class="scroll">
+                            <span>Scroll</span>
+                            <img class="icon-arrow-down" src="{{ URL('/images/Arrow-Down-White.webp') }}" alt="">
+                        </div>
                         <img class="bg-image-1" src="{{URL('/images/BG-Image-1.webp')}}" alt="Background Line">
                         <div class="left-body page-title">
                             <img class="line-yellow" src="{{URL('/images/Line-Yellow.png')}}" alt="Line">
@@ -48,10 +52,6 @@
                         <div class="body-left-button">
                             <span>Konsultasikan Bisnis Saya</span>
                         </div>
-                            {{-- <div class="body-left-scroll">
-                                <span>Scroll</span>
-                                <img src="{{URL('/images/1/arrow-down.webp')}}" alt="Down Arrow">
-                            </div> --}}
                     </div>
                 </div>
             </div>
