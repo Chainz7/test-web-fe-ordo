@@ -21,13 +21,13 @@
 5.   php artisan serve
 
 ## Showcase
-![DD](https://i.ibb.co/f9V1nvh/1.png)
-![DD](https://i.ibb.co/Rz2HB54/2.png)
-![DD](https://i.ibb.co/BzhYkt1/3.png)
-![DD](https://i.ibb.co/JtLvLxv/4.png)
-![DD](https://i.ibb.co/gvYw9Kf/5.png)
-![DD](https://i.ibb.co/VqJskW0/6.png)
-![DD](https://i.ibb.co/XVw8xgT/7.png)
+![DD](https://i.ibb.co/02MSw7v/1.png)
+![DD](https://i.ibb.co/0GwWqfx/2.png)
+![DD](https://i.ibb.co/8s3c8cY/3.png)
+![DD](https://i.ibb.co/vQqxr0f/4.png)
+![DD](https://i.ibb.co/4P5MdcD/5.png)
+![DD](https://i.ibb.co/4WsWNv4/6.png)
+![DD](https://i.ibb.co/dByCtmJ/7.png)
 
 ## About Laravel
 
