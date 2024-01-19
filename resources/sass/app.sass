@@ -60,6 +60,7 @@ a
 
 .image-1
     width: 80rem
+    height: 113rem
     position: absolute
     top: 0
     z-index: -1
@@ -74,8 +75,15 @@ a
 
 .image-4
     width: 120rem
+    margin-left: -9.8rem
     position: absolute
+    opacity: .9
+    transition: opacity 0.3s ease
     z-index: -1
+
+.image-4:hover 
+    opacity: 1
+
 
 .image-5
     width: 58.2rem
@@ -395,6 +403,7 @@ a
     display: flex
     align-items: center
     gap: 6rem
+    z-index: 2
 
 .box-previous, 
 .box-next
@@ -406,6 +415,7 @@ a
     border: none
     border-radius: 50%
     cursor: pointer
+    z-index: 2
 
 .box-main
     width: 100%
@@ -423,6 +433,7 @@ a
     font-size: 2.2rem
     font-weight: 500
     margin-bottom: 1rem
+    z-index: 5
 
 .projects-box-title
     font-size: 5rem
@@ -438,6 +449,7 @@ a
     align-self: end
     padding-bottom: 6rem
     gap: 2rem
+    cursor: pointer
 
 .projects-box-right
     display: flex
@@ -726,6 +738,10 @@ input:focus
         span 
             font-size: 1.7rem
 
+    .scroll
+        padding-right: 33rem
+        margin-left: -97rem
+
     .text-title-hero
         font-size: 3.8rem
         font-weight: 600
@@ -756,6 +772,7 @@ input:focus
         
     .image-1
         width: 70rem
+        height: 101rem
 
     .pathway-header
         font-size: 2.2rem

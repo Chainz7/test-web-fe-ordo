@@ -167,12 +167,12 @@
                     Project Terbaru Kami
                 </div>
                 <div class="projects-boxs">
-                    <img class="image-4" src="{{ URL('/images/Image-2.webp') }}" alt="Project">
                     <div class="projects-box">
                         <div class="box-previous">
                             <img class="icon-left" src="{{ URL('/images/Left-Black.webp') }}" alt="Left">
                         </div>
                         <div class="box-main">
+                            <img class="image-4" src="{{ URL('/images/Image-2.webp') }}" alt="Project">
                             <div class="projects-main-left">
                                 <span class="projects-box-subtitle">1/4 OPERATIONAL PROJECT</span>
                                 <span class="projects-box-title">Townhouse Oak</span>
