@@ -81,7 +81,7 @@
                 </div>
                 <div class="workflow-pathway">
                     <div class="workflow-1">
-                        <div class="pathway-1" style="margin-top: 18rem;">
+                        <div class="pathway" style="margin-top: 18rem;">
                             <div class="pathway-circle">
                                 <img class="image-2" src="{{URL('/images/Achievement-1.webp')}}" alt="Achievment">
                             </div>
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                     <div class="workflow-1">
-                        <div class="pathway-1" style="margin-left: 5rem; margin-top: 12rem; width: 40rem">
+                        <div class="pathway" style="margin-left: 5rem; margin-top: 12rem; width: 40rem">
                             <div class="pathway-circle">
                                 <img class="image-2" src="{{URL('/images/Achievement-2.webp')}}" alt="Achievment">
                             </div>
@@ -99,7 +99,7 @@
                         </div>
                     </div>
                     <div class="workflow-1">
-                        <div class="pathway-1" style="margin-left: 1rem; margin-top: 14rem; width: 43rem">
+                        <div class="pathway" style="margin-left: 1rem; margin-top: 14rem; width: 43rem">
                             <div style="display: flex">
                                 <div class="pathway-circle blue">
                                     <img class="image-2" src="{{URL('/images/Achievement-3.webp')}}" alt="Achievment">
@@ -111,7 +111,7 @@
                         </div>
                     </div>
                     <div class="workflow-1">
-                        <div class="pathway-1" style="margin-left: -12rem; margin-top: 1rem; width: 37rem">
+                        <div class="pathway" style="margin-left: -12rem; margin-top: 1rem; width: 37rem">
                             <div class="pathway-circle">
                                 <img class="image-2" src="{{URL('/images/Achievement-4.webp')}}" alt="Achievment">
                             </div>
